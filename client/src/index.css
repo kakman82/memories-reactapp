@@ -1,0 +1,12 @@
+body {
+    background-color: #f7f8fc
+}
+
+.react-tag-input {
+    border-color: #48c78e
+}
+
+.react-tag-input__input::placeholder, .react-tag-input__input:-moz-placeholder, .react-tag-input__input:-ms-input-placeholder, .react-tag-input__input::-moz-placeholder, .react-tag-input__input::-webkit-input-placeholder {
+    color: #333; /* Input placeholder */ 
+
+}
