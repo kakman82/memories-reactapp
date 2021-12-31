@@ -1,6 +1,10 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({
+  baseURL:
+    'https://memories-server-reactapp.herokuapp.com/' ||
+    'http://localhost:5000/api',
+});
 
 // Add a request interceptor
 API.interceptors.request.use((req) => {
