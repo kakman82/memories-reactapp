@@ -43,9 +43,8 @@ export const getOnePost = (postId) => async (dispatch) => {
 //* Get posts by search Query;
 export const getPostsBySearch = (searchQuery) => async (dispatch) => {
   try {
-    console.log(searchQuery);
     const { data } = await api.fetchPostsBySearch(searchQuery);
-    console.log(data);
+
     dispatch({
       type: types.GET_POSTS_BY_SEARCH,
       payload: data,
