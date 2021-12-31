@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API = axios.create({
   baseURL:
-    'https://memories-server-reactapp.herokuapp.com/' ||
+    'https://memories-server-reactapp.herokuapp.com/api' ||
     'http://localhost:5000/api',
 });
 
